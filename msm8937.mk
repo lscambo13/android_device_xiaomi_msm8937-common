@@ -331,6 +331,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     telephony-ext
 
+# fwk_detect
+PRODUCT_PACKAGES += \
+	libqti_vndfwk_detect
+
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.qcom \
