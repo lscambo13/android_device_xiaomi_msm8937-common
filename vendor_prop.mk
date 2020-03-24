@@ -58,8 +58,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.camera.HAL3.enabled=1 \
     persist.camera.is_type=1 \
     vidc.enc.dcvs.extra-buff-count=2v \
-    camera.hal1.packagelist=com.skype.raider,com.google.android.talk,com.whatsapp,com.facebook.katana,com.instagram.android,com.snapchat.android,com.viber.voip
-
+    camera.hal1.packagelist1=com.skype.raider,com.google.android.talk,com.whatsapp \
+    camera.hal1.packagelist2=com.facebook.katana,com.instagram.android,com.snapchat.android,com.viber.voip
 
 # CNE
 PRODUCT_PROPERTY_OVERRIDES += \
