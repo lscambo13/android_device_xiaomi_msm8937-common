@@ -42,13 +42,12 @@ PRODUCT_AAPT_PREBUILT_DPI := hdpi
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
 
+# Setup dalvik vm configs
+$(call inherit-product, vendor/pixeldust/configs/phone-xhdpi-4096-dalvik-heap.mk)
+
 # Additional native libraries
 PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/configs/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
-
-# Ambient display
-PRODUCT_PACKAGES += \
-    XiaomiDoze
 
 # ANT+
 PRODUCT_PACKAGES += \
