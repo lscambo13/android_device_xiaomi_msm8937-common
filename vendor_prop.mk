@@ -111,7 +111,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
-    mm.enable.qcom_parser=4176895 \
     media.stagefright.audio.sink=280 \
     vendor.vidc.disable.split.mode=1 \
     vendor.vidc.enc.disable_bframes=1 \
@@ -133,6 +132,20 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.data.mode=concurrent \
     persist.vendor.vt.supported=1 \
     ro.telephony.iwlan_operation_mode=legacy \
+persist.vendor.sys.cnd.iwlan=1 \
+mm.enable.smoothstreaming=true \
+vendor.mm.enable.qcom_parser=1048575 \
+av.debug.disable.pers.cache=1 \
+persist.vendor.data.iwlan.enable=true \
+persist.vendor.lte.pco_mmi_legacy_mode=true \
+persist.vendor.lte.pco_supported=true \
+persist.vendor.radio.add_power_save=1 \
+persist.vendor.radio.force_get_pref=1 \
+persist.vendor.radio.lte_vrte_ltd=1 \
+persist.vendor.radio.enable_temp_dds=true \
+persist.vendor.radio.force_get_pref=1 \
+persist.vendor.radio.no_wait_for_card=1 \
+persist.vendor.radio.relay_oprt_change=1 \
     persist.sys.fflag.override.settings_network_and_internet_v2=true
 
 # Time Services
