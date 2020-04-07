@@ -53,7 +53,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.camera.display.umax=1920x1080 \
     persist.vendor.camera.display.lmax=1280x720 \
-    persist.vendor.qti.telephony.vt_cam_interface=1 \
+    persist.vendor.qti.telephony.vt_cam_interface=2 \
     persist.camera.gyro.android=0 \
     persist.camera.HAL3.enabled=1 \
     persist.camera.is_type=1 \
@@ -131,6 +131,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.radio.rat_on=combine \
     persist.vendor.radio.sib16_support=1 \
     persist.vendor.data.mode=concurrent \
+    persist.vendor.vt.supported=1 \
+    ro.telephony.iwlan_operation_mode=legacy \
     persist.sys.fflag.override.settings_network_and_internet_v2=true
 
 # Time Services
@@ -143,7 +145,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.qti.sys.fw.empty_app_percent=50 \
     ro.vendor.qti.sys.fw.trim_empty_percent=100 \
     ro.vendor.qti.sys.fw.trim_cache_percent=100 \
-    ro.vendor.qti.sys.fw.trim_enable_memory=2147483648 
+    ro.vendor.qti.sys.fw.trim_enable_memory=2147483648
 
 # Usb
 PRODUCT_PROPERTY_OVERRIDES += \

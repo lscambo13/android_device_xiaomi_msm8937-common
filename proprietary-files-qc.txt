@@ -243,11 +243,12 @@ vendor/firmware/a530v3_seq.fw2|8963a53acc689725dee4b22881a4dd4b80e5def8
 
 # IMS - from tissot - PKQ1.180917.001.V10.0.4.0.PDHMIXM
 -app/uceShimService/uceShimService.apk|d2ecdb607749b0496664db52b706e9340bd9b9f0
-lib64/lib-imscamera.so|6d9c63ad43e5dca62dea7a47e7b121bc4df317f9
-lib64/lib-imsvideocodec.so|3450d725416f8f45d788fadc43f88d25937508a0
-lib64/lib-imsvt.so|7dfc533fc3c439a608b219838281d6c5f605ee22
-lib64/lib-imsvtextutils.so|dc3340321ee2543bb35248d0f9dac4718116a073
-lib64/lib-imsvtutils.so|13480b644ed5290f7ddc2f7c304c0e912f416098
+product/lib64/lib-imscamera.so|fc4ed521cd93512c7d54ca29736d7b13022cf5cd
+product/lib64/lib-imsvideocodec.so|027607a43a524e28e4aeca2378aa987e491acac0
+product/lib64/lib-imsvt.so|d650917fb938a70467f9b0f9f1319714278222cf
+product/lib64/lib-imsvtextutils.so|c8065a0ddf21c3ba9cffdc61c2b5b6488081b8be
+product/lib64/lib-imsvtutils.so|8e9bba6bbad8e8e5d3cfa40831262db5c745e073
+vendor/lib64/lib-imsvtcore.so|9844d23c5d6388fc8aefd3eac62bd1aaacdb1ab8
 lib64/libdiag_system.so|811c30efa526e8e3828b112487b1d203cca5ed6e
 product/lib64/libimscamera_jni.so|7cb89110cca94d37d68c705f12a7a5a4ee106139
 product/lib64/libimsmedia_jni.so|e50217e9eb8878136614db66313508ac970a2b42
